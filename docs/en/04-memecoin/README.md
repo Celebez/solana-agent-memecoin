@@ -166,5 +166,7 @@ Examples: new tokens from pump.fun
 
 ## 🔗 Next
 
+- **[04. Meme Coin](../04-memecoin/README.md)** — what, why, how
 - **[05. Token Safety Check](../05-token-check/README.md)** — check with Helius RPC + scripts
 - **[06. Trading](../06-trading/README.md)** — Jupiter, Raydium, Pump.fun
+- **[09. 🤖 Trading with AI Agent](../09-agent-trading/README.md)** — autonomous trading

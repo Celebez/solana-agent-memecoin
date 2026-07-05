@@ -25,6 +25,7 @@ Kumpulan **17 script Python siap pakai** untuk workflow Solana & meme coin tradi
 | 17 | `telegram_notifier.py` | Kirim alert ke Telegram bot | - | 📢 Notification |
 | 18 | `bot_runner.py` | Scheduler untuk multi-bot | - | ⏰ Automation |
 | 19 | `streamlit_dashboard.py` | Web dashboard interaktif | Helius | 📊 Dashboard |
+| 20 | `agent_trader.py` | 🤖 Autonomous trading agent dengan guardrails | Helius | 🤖 Agent |
 
 ## 📦 Install
 

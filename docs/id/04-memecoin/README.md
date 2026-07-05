@@ -162,7 +162,9 @@ Contoh: token baru dari pump.fun
 [ ] Exit plan jelas
 ```
 
-## 🔗 Lanjut
+## 🔗 Next
 
+- **[04. Meme Coin](../04-memecoin/README.md)** — apa, kenapa, bagaimana
 - **[05. Token Safety Check](../05-token-check/README.md)** — cek dengan Helius RPC + script
 - **[06. Trading](../06-trading/README.md)** — Jupiter, Raydium, Pump.fun
+- **[09. 🤖 Trading dengan AI Agent](../09-agent-trading/README.md)** — autonomous trading

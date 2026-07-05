@@ -31,9 +31,11 @@
 - [06. Trading: Beli/Jual di Jupiter, Raydium, Pump.fun](docs/id/06-trading/README.md)
 - [07. Tools Pendukung: Bot, Alert, Portfolio Tracker](docs/id/07-tools/README.md)
 - [08. Tips dari Trader Berpengalaman & Anti-Scam](docs/id/08-tips/README.md)
+- [09. 🤖 Trading dengan AI Agent (Setup & Install)](docs/id/09-agent-trading/README.md)
 
 ### 🇬🇧 English
-- [01. Introduction: What is Solana & Meme Coin?](docs/en/01-introduction/README.md)
+- [08. Tips from Experienced Traders & Anti-Scam](docs/en/08-tips/README.md)
+- [09. 🤖 Trading with AI Agent (Setup & Install)](docs/en/09-agent-trading/README.md)
 - [02. Solana Wallet: Types & How to Choose](docs/en/02-wallet/README.md)
 - [03. Wallet Security: Mandatory Best Practices](docs/en/03-security/README.md)
 - [04. Meme Coin: Anatomy, Risk & Opportunity](docs/en/04-memecoin/README.md)

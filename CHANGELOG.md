@@ -5,6 +5,27 @@ Semua perubahan penting di repo ini didokumentasikan di sini.
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 dan project ini mengikuti [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-07-05
+
+### 🤖 Agent Trading Section + Implementation
+
+#### Added
+- 📚 **Section 09 — Agent Trading** (EN + ID):
+  - Complete guide: architecture, install, setup, strategy library
+  - 5 strategy presets (ultra_safe → yolo)
+  - 10 mandatory guardrails
+  - Jupiter swap integration guide
+  - Monitoring & override patterns
+- 🤖 **`scripts/agent_trader.py`** — working autonomous trading agent:
+  - Dry-run mode (paper trading) + live mode
+  - 5 strategy presets with adjustable parameters
+  - 7 guardrails: position cap, stop loss, take profit, daily loss, max positions, cooldown, blacklist
+  - Persistent state across runs (`~/.solana-agent/agent_state.json`)
+  - Discord notification integration
+  - Manual pause via `~/.agent_paused` file
+  - Audit log ke `agent_trader.log`
+- 🧪 **`tests/test_agent_trader.py`** — unit tests untuk guardrails & strategy logic
+
 ## [1.1.0] - 2026-07-05
 
 ### 🌍 Bilingual Release (English + Indonesian)
