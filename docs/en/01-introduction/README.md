@@ -1,6 +1,6 @@
 # 📖 01. Introduction — What is Solana & Meme Coin?
 
-> 🇬🇧 English | 🇮🇩 [Bahasa Indonesia](../id/01-introduction/README.md)
+> 🇬🇧 English | 🇮🇩 [Bahasa Indonesia](../../id/01-introduction/README.md)
 
 ## 🟣 What is Solana?
 
@@ -92,8 +92,8 @@ But reality:
 ## 📚 Next Topics
 
 Continue to:
-- **[02. Solana Wallet](docs/en/02-wallet/README.md)** — wallet types & how to choose
-- **[03. Security](docs/en/03-security/README.md)** — mandatory best practices
+- **[02. Solana Wallet](../02-wallet/README.md)** — wallet types & how to choose
+- **[03. Security](../03-security/README.md)** — mandatory best practices
 
 ---
 

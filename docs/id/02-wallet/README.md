@@ -117,5 +117,5 @@ solana balance
 
 ## 🔗 Lanjut
 
-- **[03. Keamanan](docs/03-keamanan/README.md)** — best practice wajib
-- **[04. Memecoin](docs/04-memecoin/README.md)** — anatomi & peluang
+- **[03. Keamanan](../03-security/README.md)** — best practice wajib
+- **[04. Memecoin](../04-memecoin/README.md)** — anatomi & peluang

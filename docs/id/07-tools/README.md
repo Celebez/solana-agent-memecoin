@@ -33,7 +33,7 @@
 5. Notif masuk saat volume/MC berubah signifikan
 
 ### Custom Discord Alert (Helius Webhook)
-Lihat script: [`scripts/monitor_wallet.py`](../scripts/monitor_wallet.py) + [`scripts/discord_notifier.py`](../scripts/discord_notifier.py)
+Lihat script: [`scripts/monitor_wallet.py`](../../../scripts/monitor_wallet.py) + [`scripts/discord_notifier.py`](../../../scripts/discord_notifier.py)
 
 ## 🤖 Bot Telegram Populer
 
@@ -151,7 +151,7 @@ Fitur:
 
 ## 📜 Script Kustom
 
-Lihat folder [`scripts/`](../scripts/):
+Lihat folder [`scripts/`](../../../scripts/):
 
 | Script | Fungsi |
 |---|---|
@@ -164,5 +164,5 @@ Lihat folder [`scripts/`](../scripts/):
 
 ## 🔗 Lanjut
 
-- **[08. Tips](docs/08-tips/README.md)** — wisdom & anti-scam
-- **[Scripts](../scripts/README.md)** — automasi siap pakai
+- **[08. Tips](../08-tips/README.md)** — wisdom & anti-scam
+- **[Scripts](../../../scripts/README.md)** — automasi siap pakai

@@ -149,5 +149,5 @@ Use this before serious trading:
 
 ## 🔗 Next
 
-- **[04. Meme Coin](docs/en/04-memecoin/README.md)** — what, why, how
-- **[05. Token Safety Check](docs/en/05-token-check/README.md)** — check rug pulls
+- **[04. Meme Coin](../04-memecoin/README.md)** — what, why, how
+- **[05. Token Safety Check](../05-token-check/README.md)** — check rug pulls

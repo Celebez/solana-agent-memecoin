@@ -170,5 +170,5 @@ URL: https://jupiter.ag/limit
 
 ## 🔗 Lanjut
 
-- **[07. Tools](docs/07-tools/README.md)** — bot, alert, portfolio tracker
-- **[08. Tips](docs/08-tips/README.md)** — wisdom dari trader berpengalaman
+- **[07. Tools](../07-tools/README.md)** — bot, alert, portfolio tracker
+- **[08. Tips](../08-tips/README.md)** — wisdom dari trader berpengalaman

@@ -164,5 +164,5 @@ Contoh: token baru dari pump.fun
 
 ## 🔗 Lanjut
 
-- **[05. Token Safety Check](docs/05-token-check/README.md)** — cek dengan Helius RPC + script
-- **[06. Trading](docs/06-trading/README.md)** — Jupiter, Raydium, Pump.fun
+- **[05. Token Safety Check](../05-token-check/README.md)** — cek dengan Helius RPC + script
+- **[06. Trading](../06-trading/README.md)** — Jupiter, Raydium, Pump.fun

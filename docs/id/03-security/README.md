@@ -147,5 +147,5 @@ Gunakan ini sebelum mulai trading serius:
 
 ## 🔗 Lanjut
 
-- **[04. Memecoin](docs/04-memecoin/README.md)** — apa, kenapa, bagaimana
-- **[05. Token Safety Check](docs/05-token-check/README.md)** — cek rug pull
+- **[04. Memecoin](../04-memecoin/README.md)** — apa, kenapa, bagaimana
+- **[05. Token Safety Check](../05-token-check/README.md)** — cek rug pull

@@ -132,11 +132,11 @@ Gunakan **Composite Rug Score** (0–100, makin tinggi makin aman):
 - **20–39**: 🟠 Risiko tinggi
 - **0–19**: 🔴 Jangan beli (kemungkinan rug)
 
-Lihat implementasi lengkap: [`scripts/rug_score.py`](../scripts/rug_score.py)
+Lihat implementasi lengkap: [`scripts/rug_score.py`](../../../scripts/rug_score.py)
 
 ## 🐍 Script Python — `check_token.py`
 
-Lokasi: [`scripts/check_token.py`](../scripts/check_token.py)
+Lokasi: [`scripts/check_token.py`](../../../scripts/check_token.py)
 
 Fitur:
 - ✅ Cek mint/freeze authority via Helius
@@ -196,5 +196,5 @@ python scripts/check_token.py 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU
 
 ## 🔗 Lanjut
 
-- **[06. Trading](docs/06-trading/README.md)** — Jupiter, Raydium, Pump.fun
-- **[07. Tools](docs/07-tools/README.md)** — bot, alert, portfolio tracker
+- **[06. Trading](../06-trading/README.md)** — Jupiter, Raydium, Pump.fun
+- **[07. Tools](../07-tools/README.md)** — bot, alert, portfolio tracker

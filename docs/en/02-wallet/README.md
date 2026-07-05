@@ -119,5 +119,5 @@ solana balance
 
 ## 🔗 Next
 
-- **[03. Security](docs/en/03-security/README.md)** — mandatory best practices
-- **[04. Meme Coin](docs/en/04-memecoin/README.md)** — anatomy & opportunity
+- **[03. Security](../03-security/README.md)** — mandatory best practices
+- **[04. Meme Coin](../04-memecoin/README.md)** — anatomy & opportunity

@@ -35,7 +35,9 @@ Repo ini **aman untuk dicontoh** karena:
 
 ## 🛡️ Untuk Pengguna Repo Ini
 
-Baca [docs/03-keamanan/README.md](docs/03-keamanan/README.md) untuk best practice lengkap melindungi wallet Anda.
+Baca best practice lengkap melindungi wallet Anda:
+- 🇮🇩 [docs/id/03-security/README.md](docs/id/03-security/README.md)
+- 🇬🇧 [docs/en/03-security/README.md](docs/en/03-security/README.md)
 
 ---
 

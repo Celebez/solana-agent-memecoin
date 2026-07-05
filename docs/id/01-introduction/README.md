@@ -90,8 +90,8 @@ Tapi realitanya:
 ## 📚 Topik Lanjutan
 
 Lanjut ke:
-- **[02. Wallet Solana](docs/02-wallet/README.md)** — jenis wallet & cara pilih
-- **[03. Keamanan](docs/03-keamanan/README.md)** — best practice wajib
+- **[02. Wallet Solana](../02-wallet/README.md)** — jenis wallet & cara pilih
+- **[03. Keamanan](../03-security/README.md)** — best practice wajib
 
 ---
 

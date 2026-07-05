@@ -35,7 +35,7 @@
 5. Get notified when volume/MC changes significantly
 
 ### Custom Discord Alert (Helius Webhook)
-See scripts: [`scripts/monitor_wallet.py`](../../scripts/monitor_wallet.py) + [`scripts/discord_notifier.py`](../../scripts/discord_notifier.py)
+See scripts: [`scripts/monitor_wallet.py`](../../../scripts/monitor_wallet.py) + [`scripts/discord_notifier.py`](../../../scripts/discord_notifier.py)
 
 ## 🤖 Popular Telegram Bots
 
@@ -153,7 +153,7 @@ Features:
 
 ## 📜 Custom Scripts
 
-See folder [`scripts/`](../../scripts/):
+See folder [`scripts/`](../../../scripts/):
 
 | Script | Function |
 |---|---|
@@ -166,5 +166,5 @@ See folder [`scripts/`](../../scripts/):
 
 ## 🔗 Next
 
-- **[08. Tips](docs/en/08-tips/README.md)** — wisdom & anti-scam
-- **[Scripts](../../scripts/README.md)** — ready-to-use automation
+- **[08. Tips](../08-tips/README.md)** — wisdom & anti-scam
+- **[Scripts](../../../scripts/README.md)** — ready-to-use automation
