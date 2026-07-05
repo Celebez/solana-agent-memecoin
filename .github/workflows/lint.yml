@@ -1,0 +1,35 @@
+name: Lint Python
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/lint.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ruff
+        run: pip install ruff
+
+      - name: Lint
+        run: ruff check scripts/
+        continue-on-error: false
+
+      - name: Format check
+        run: ruff format --check scripts/
+        continue-on-error: true

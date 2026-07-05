@@ -1,0 +1,28 @@
+# ============================================================
+# SECURITY SCANNING CONFIGURATION
+# ============================================================
+# Gitleaks — scan untuk secret di git history
+
+title = "Gitleaks"
+
+[extend]
+useDefault = true
+
+# Tambahkan pattern spesifik crypto wallet
+[[rules]]
+id = "solana-private-key"
+description = "Solana Private Key (base58, 64 chars)"
+regex = '''(?i)(?:private[_-]?key|secret[_-]?key|priv[_-]?key)["'\s:=]+([1-9A-HJ-NP-Za-km-z]{87,88})'''
+keywords = ["private_key", "secret_key", "priv_key"]
+
+[[rules]]
+id = "solana-seed-phrase"
+description = "Possible BIP39 seed phrase (12+ words)"
+regex = '''(?:seed|mnemonic|recovery)[_-]?(?:phrase|words?)["'\s:=]+((?:[a-z]{3,8}\s+){11,23}[a-z]{3,8})'''
+keywords = ["seed phrase", "mnemonic", "recovery words"]
+
+[[rules]]
+id = "helius-api-key"
+description = "Helius RPC API Key"
+regex = '''(?i)helius[_-]?api[_-]?key["'\s:=]+([a-f0-9-]{36,})'''
+keywords = ["helius_api_key", "HELIUS_API_KEY"]

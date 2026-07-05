@@ -1,0 +1,16 @@
+# Python dependencies untuk scripts di repo ini
+# Install: pip install -r requirements.txt
+
+# HTTP requests
+requests>=2.31.0
+
+# Solana SDK (untuk wallet_setup.py)
+base58>=2.1.0
+cryptography>=41.0.0
+soldier-python>=0.1.0  # Solana Python SDK alternatif
+
+# Discord webhooks (untuk alert)
+# Tidak butuh library, pakai requests langsung
+
+# Testing
+pytest>=7.4.0

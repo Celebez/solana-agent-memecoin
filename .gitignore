@@ -1,0 +1,65 @@
+# File-file ini WAJIB di-gitignore untuk mencegah kebocoran
+
+# Wallet & Keys
+*.json.key
+*wallet*.json
+!wallets.example.json
+saw/
+~/.saw/
+*seed*.json
+*mnemonic*.txt
+*private*.txt
+*keypair*.json
+*.pem
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+config.local.yaml
+secrets.yaml
+helius_key.txt
+rpc_url.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.pid
+
+# OS
+.Trash-*
+.nfs*
+
+# Project specific
+/data/
+/output/
+/tmp/
+reports/
+*.bak

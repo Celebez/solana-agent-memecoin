@@ -1,0 +1,31 @@
+name: Welcome First-Time Contributor
+
+on:
+  pull_request:
+    types: [opened]
+    branches: [main]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login != 'Celebez'
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Terima kasih sudah membuka issue! Seseorang akan merespons dalam 1–3 hari.
+
+            Sebelum lanjut, pastikan sudah baca:
+            - [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md)
+            - [Docs](../../tree/main/docs)
+            - [Issues yang ada](../../issues)
+          pr-message: |
+            🎉 Terima kasih sudah kontribusi PR!
+
+            Maintainer akan review dalam 1–3 hari. Pastikan:
+            - ✅ Test script di lokal
+            - ✅ Tidak commit private key / seed / API key
+            - ✅ Update dokumentasi terkait
+
+            Lihat [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md) untuk standar.
