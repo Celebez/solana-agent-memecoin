@@ -1,16 +1,18 @@
 # Python dependencies untuk scripts di repo ini
 # Install: pip install -r requirements.txt
 
-# HTTP requests
+# HTTP requests (semua script)
 requests>=2.31.0
 
-# Solana SDK (untuk wallet_setup.py)
+# Encoding & crypto (wallet_setup.py)
 base58>=2.1.0
 cryptography>=41.0.0
-soldier-python>=0.1.0  # Solana Python SDK alternatif
 
-# Discord webhooks (untuk alert)
-# Tidak butuh library, pakai requests langsung
+# Streamlit dashboard (optional, untuk streamlit_dashboard.py)
+streamlit>=1.28.0
+plotly>=5.17.0
+pandas>=2.1.0
 
 # Testing
 pytest>=7.4.0
+pytest-mock>=3.11.0
