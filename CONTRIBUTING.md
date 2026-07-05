@@ -1,44 +1,58 @@
-# 🤝 Contributing ke solana-memecoin-guide
+# 🤝 Contributing to solana-agent-memecoin
 
-Terima kasih sudah mau berkontribusi! Repo ini bertujuan jadi panduan **terbaik & teraman** untuk wallet Solana & trading meme coin.
+Thank you for your interest in contributing! This repo aims to be the **best & safest** guide for Solana wallets & meme coin trading — available in both 🇬🇧 English and 🇮🇩 Bahasa Indonesia.
 
-## 📋 Cara Berkontribusi
+Terima kasih sudah mau berkontribusi! Repo ini bertujuan jadi panduan **terbaik & teraman** untuk wallet Solana & trading meme coin — tersedia dalam 🇬🇧 English dan 🇮🇩 Bahasa Indonesia.
 
-### 🐛 Laporkan Bug / Error
-- Buka [Issue](../../issues/new?template=bug_report.md)
-- Jelaskan langkah reproduksi
-- Sertakan screenshot/error log jika ada
+## 🌍 Bilingual Contributions
 
-### 💡 Usul Konten Baru
-- Buka [Feature Request](../../issues/new?template=feature_request.md)
-- Jelaskan value yang ditambahkan
+We welcome contributions in **either language**:
+- 🇬🇧 **English** — primary for international audience
+- 🇮🇩 **Bahasa Indonesia** — primary for local Indonesian audience
 
-### ✏️ Edit / Tambah Dokumentasi
-1. **Fork** repo ini
-2. Buat branch: `git checkout -b feat/nama-fitur`
-3. Commit: `git commit -m "feat: tambah section XYZ"`
-4. Push: `git push origin feat/nama-fitur`
-5. Buka **Pull Request**
+When adding new content, please add it to **both** `docs/en/` and `docs/id/` to maintain parity.
 
-## ✅ Standar Kontribusi
+Saat menambah konten baru, tambahkan ke **kedua** `docs/en/` dan `docs/id/` untuk menjaga kesetaraan.
 
-| Aspek | Standar |
+---
+
+## 📋 How to Contribute
+
+### 🐛 Report Bug / Error
+- Open [Issue](../../issues/new?template=bug_report.md)
+- Describe reproduction steps
+- Include screenshot/error log if any
+
+### 💡 Suggest New Content
+- Open [Feature Request](../../issues/new?template=feature_request.md)
+- Explain the added value
+
+### ✏️ Edit / Add Documentation
+1. **Fork** this repo
+2. Create branch: `git checkout -b feat/name-of-feature`
+3. Commit: `git commit -m "feat: add XYZ section"`
+4. Push: `git push origin feat/name-of-feature`
+5. Open **Pull Request**
+
+## ✅ Contribution Standards
+
+| Aspect | Standard |
 |---|---|
-| **Bahasa** | Indonesia (utama), English (code/comments) |
-| **Gaya** | Ramah pemula, jelas, tidak menggurui |
-| **Akurasi** | Test semua script sebelum submit |
-| **Keamanan** | **JANGAN PERNAH** commit private key, seed phrase, atau API key |
-| **Disclaimer** | Selalu sertakan disclaimer "bukan saran finansial" |
+| **Language** | English OR Indonesian (maintain parity in both folders) |
+| **Style** | Beginner-friendly, clear, not condescending |
+| **Accuracy** | Test all scripts before submitting |
+| **Security** | **NEVER** commit private keys, seed phrases, or API keys |
+| **Disclaimer** | Always include "not financial advice" disclaimer |
 
-## 🔒 Keamanan Kontributor
+## 🔒 Contributor Security
 
-> ⚠️ **JANGAN PERNAH** commit:
-> - Private key
-> - Seed phrase / mnemonic
-> - API key production
-> - Wallet address yang berisi dana asli (untuk contoh, gunakan `11111111111111111111111111111111`)
+> ⚠️ **NEVER** commit:
+> - Private keys
+> - Seed phrases / mnemonics
+> - Production API keys
+> - Wallet addresses containing real funds (for examples, use `11111111111111111111111111111111`)
 
-Contoh wallet untuk testing:
+Test wallets for examples:
 ```
 11111111111111111111111111111111  # System Program (dummy)
 So11111111111111111111111111111111111111112  # Wrapped SOL
@@ -47,23 +61,25 @@ EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v  # USDC
 
 ## 📝 Commit Message Convention
 
-Gunakan [Conventional Commits](https://www.conventionalcommits.org/):
+Use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
-feat: tambah script check_token.py
-fix: perbaiki typo di docs/02-wallet
-docs: tambah section tentang cold storage
+feat: add check_token.py script
+fix: fix typo in docs/02-wallet
+docs: add section about cold storage
 chore: update dependencies
 ```
 
-## 🎯 Area yang Butuh Bantuan
+## 🎯 Areas That Need Help
 
-- [ ] Translasi ke English / Mandarin
-- [ ] Video tutorial (link YouTube)
-- [ ] Lebih banyak contoh real-world token scam
-- [ ] Integrasi dengan wallet adapter (Phantom, Solflare)
 - [ ] Mobile-friendly scripts
+- [ ] Translation to Mandarin / Spanish
+- [ ] Video tutorial (link YouTube)
+- [ ] More real-world token scam examples
+- [ ] Phantom / Solflare wallet adapter integration
+- [ ] Streamlit dashboard for portfolio tracking
 
 ---
 
+By contributing, you agree to the [Code of Conduct](CODE_OF_CONDUCT.md).
 Dengan berkontribusi, Anda setuju dengan [Code of Conduct](CODE_OF_CONDUCT.md).

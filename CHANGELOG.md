@@ -5,6 +5,20 @@ Semua perubahan penting di repo ini didokumentasikan di sini.
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 dan project ini mengikuti [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] - 2026-07-05
+
+### 🌍 Bilingual Release (English + Indonesian)
+
+#### Added
+- 🇬🇧 **Full English version** in `docs/en/` (8 sections, complete mirror of Indonesian)
+- 🇮🇩 **Indonesian version** moved to `docs/id/` (kept from v1.0.0)
+- 🌐 Language switcher at top of every doc page (🇬🇧 EN ⇄ 🇮🇩 ID)
+- 🪪 Updated README with bilingual ToC and quick start
+- 🤝 Updated CONTRIBUTING.md with bilingual contribution guide
+
+### 🔄 Changed
+- **Renamed repo**: `solana-memecoin-guide` → **`solana-agent-memecoin`**
+
 ## [1.0.0] - 2026-07-05
 
 ### ✨ Initial Release
